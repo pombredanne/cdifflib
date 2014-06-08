@@ -1,6 +1,7 @@
 cdifflib
 ========
-
+  <img src="https://travis-ci.org/mduggan/cdifflib.svg?branch=master">
+  
 Python [difflib](http://docs.python.org/2/library/difflib.html) sequence
 matcher reimplemented in C.
 
@@ -16,6 +17,8 @@ The C part of the code can only work on `list` rather than generic iterables,
 so anything that isn't a `list` will be converted to `list` in the
 `CSequenceMatcher` constructor.  This may cause undesirable behavior if you're
 not expecting it.
+
+The C extension only works with Python 2.7 at the moment.
 
 Usage
 -----
