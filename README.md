@@ -68,6 +68,11 @@ This code lives at https://github.com/mduggan.  See LICENSE for the license.
 
 Changelog
 ---------
+* 1.2.4 - Repackage yet again using twine for pypi upload (no binary changes)
+* 1.2.3 - Repackage again with changelog update and corrected src package (no binary changes)
+* 1.2.2 - Repackage to add README.md in a way pypi supports (no binary changes)
+* 1.2.1 - Fix bug for longer sequences with "autojunk"
+* 1.2.0 - Python 3 support for other versions
 * 1.1.0 - Added Python 3.6 support (thanks Bclavie)
 * 1.0.4 - Changes to make it compile on MSVC++ compiler, no change for other platforms
 * 1.0.2 - Bugfix - also replace set_seq1 implementation so `difflib.compare` works with a `CSequenceMatcher`
